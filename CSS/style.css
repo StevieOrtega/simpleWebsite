@@ -1,3 +1,15 @@
 body{
-     background-color: lightblue;
+     background-color: #FFFCF2;
+
+}
+/*  this is how to make comments in a css file */
+.navBar ul{
+     list-style-type: none; /* removes the bullets. A navbar doesnt need list markers */
+     margin: 0;
+     padding: 0; /* to remover the browser default settings */
+
+}
+.navBar li {
+     display: block;
+     width: 60px;
 }
