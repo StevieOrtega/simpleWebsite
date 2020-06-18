@@ -9,13 +9,15 @@ body{
      padding: 0;
      /* to remover the browser default settings */
      overflow: hidden;
-     background-color: #403D39;
+     border: 1px solid #e7e7e7;
+     background-color: #f1f1f1;
      position: fixed;
      top: 0;
      width: 100%;
 }
 .navBar li {
      float: left;
+     color: #666;
      border-right: 1px solid #bbb;
 }
 .navBar li {
@@ -25,14 +27,18 @@ body{
      padding: 14px 16px;
      text-decoration: none;
 }
+.navBar li a{
+     color: blueviolet;
+}
 .navBar li a:hover {
-     background-color: #403D39;
+     background-color: #000;
+    
 }
 .navBar li:last-child{
      border-right:none;
 }
 .active {
-     background-color: #FFFCF2;
+     background-color: #666;
 }
 
 h1{
