@@ -1,48 +1,49 @@
+*{
+     margin: 0px;
+     padding: 0px;
+
+     box-sizing: border-box;
+}
+
 body{
-     background-color: #FFFCF2;
+     font-family: 'Krona One', sans-serif;
+}
+header{
+     display:flex;
+     width: 90%;
+     height: 10vh;
+     margin: auto;
+     align-items: center;
+}
+.LOGO-CONTAINER, 
+.nav-links,
+ .cart{
+     display:flex;
+}
+.logo{
+     font-weight: 400;
+     margin: 5px;
+}
+.LOGO-CONTAINER{
+flex:1;
+}
+nav{
+
+flex:2;
+}
+.nav-links{
+     justify-content: space-around;
+     list-style: none;
+}
+.nav-link{
+      color: lightslategrey;
+      font-size: 18px;
+      text-decoration: none;
 
 }
-/*  this is how to make comments in a css file */
-.navBar ul{
-     list-style-type: none; /* removes the bullets. A navbar doesnt need list markers */
-     margin: 0;
-     padding: 0;
-     /* to remover the browser default settings */
-     overflow: hidden;
-     border: 1px solid #e7e7e7;
-     background-color: #f1f1f1;
-     position: fixed;
-     top: 0;
-     width: 100%;
-}
-.navBar li {
-     float: left;
-     color: #666;
-     border-right: 1px solid #bbb;
-}
-.navBar li {
-     display: block; /* removes the line breaks before and after each list item
-     to be able to display them on one line*/
-     text-align: center;
-     padding: 14px 16px;
-     text-decoration: none;
-}
-.navBar li a{
-     color: blueviolet;
-}
-.navBar li a:hover {
-     background-color: #000;
-    
-}
-.navBar li:last-child{
-     border-right:none;
-}
-.active {
-     background-color: #666;
+.cart{
+
+     flex:1;
+     justify-content: flex-end;
 }
 
-h1{
-     color: #AA6373;
-     text-align: center;
-
-}
